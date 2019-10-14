@@ -1,4 +1,4 @@
-package com.luv2code.aopdemo;
+package com.spring.aopdemo;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.luv2code.aopdemo.dao;
+package com.spring.aopdemo.dao;
 
 import org.springframework.stereotype.Component;
 
