@@ -7,11 +7,12 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-@Order(2)
-public class MyDemoLoggingAspect {
-	
+@Order(123)
+public class MyApiAnalyticsAspect {
+
 	@Before("com.spring.aopdemo.aspect.AopExpressions.forDaoPackageNoGetterSetter()")
-	public void beforeAddAccountAdvice() {		
-		System.out.println("\n=====>>> Executing @Before advice on method");		
+	public void performApiAnalytics() {
+		System.out.println("\n=====>>> Performing API analytics");		
 	}
+
 }
