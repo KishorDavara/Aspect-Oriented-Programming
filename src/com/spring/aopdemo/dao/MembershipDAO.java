@@ -11,4 +11,14 @@ public class MembershipDAO {
 		
 		return true;
 	}
+
+	public void goToSleep() {
+		
+		System.out.println(getClass() + ": I'm going to sleep now...");
+		
+	}
+
 }
+
+
+
